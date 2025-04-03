@@ -1,4 +1,4 @@
-import { LogoIcon } from "./Icons";
+import { Zap } from "lucide-react";
 
 export const Footer = () => {
   return (
@@ -11,9 +11,10 @@ export const Footer = () => {
             rel="noreferrer noopener"
             href="/"
             className="font-bold text-xl flex"
+            style={{ fontFamily: "'Dancing Script', cursive" }}
           >
-            <LogoIcon />
-            ShadcnUI/React
+            <Zap />
+            <a className="ml-2">Fast Talk</a>
           </a>
         </div>
 
@@ -88,7 +89,7 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#features"
               className="opacity-60 hover:opacity-100"
             >
               Features
@@ -98,17 +99,17 @@ export const Footer = () => {
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#waiting"
               className="opacity-60 hover:opacity-100"
             >
-              Pricing
+              Waiting List
             </a>
           </div>
 
           <div>
             <a
               rel="noreferrer noopener"
-              href="#"
+              href="#faq"
               className="opacity-60 hover:opacity-100"
             >
               FAQ
