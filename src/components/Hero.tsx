@@ -28,12 +28,13 @@ export const Hero = () => {
         </p>
 
         <div className="space-y-4 md:space-y-0 md:space-x-4">
-          <Button className="w-full md:w-1/3">Learn more</Button>
+          <a rel="noreferrer noopener" href="#about">
+            <Button className="w-full md:w-1/3">Learn more</Button>
+          </a>
 
           <a
             rel="noreferrer noopener"
-            href="https://github.com/leoMirandaa/shadcn-landing-page.git"
-            target="_blank"
+            href="#waiting"
             className={`w-full md:w-1/3 ${buttonVariants({
               variant: "outline",
             })}`}

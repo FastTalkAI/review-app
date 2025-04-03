@@ -50,7 +50,7 @@ export const Navbar = () => {
           <NavigationMenuItem className="font-bold flex">
             <a
               rel="noreferrer noopener"
-              href="/"
+              href="#"
               className="ml-2 font-bold text-xl flex"
               style={{ fontFamily: "'Dancing Script', cursive" }}
             >
@@ -77,7 +77,15 @@ export const Navbar = () => {
               <SheetContent side={"left"}>
                 <SheetHeader>
                   <SheetTitle className="font-bold text-xl">
-                    Fast Talk
+                    <a
+                      rel="noreferrer noopener"
+                      href="#"
+                      className="ml-2 font-bold text-xl flex"
+                      style={{ fontFamily: "'Dancing Script', cursive" }}
+                    >
+                      <Zap />
+                      <a className="ml-2">Fast Talk</a>
+                    </a>
                   </SheetTitle>
                 </SheetHeader>
                 <nav className="flex flex-col justify-center items-center gap-2 mt-4">
