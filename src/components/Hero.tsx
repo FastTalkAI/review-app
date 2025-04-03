@@ -1,7 +1,6 @@
 import { Button } from "./ui/button";
 import { buttonVariants } from "./ui/button";
 import { HeroCards } from "./HeroCards";
-import { GitHubLogoIcon } from "@radix-ui/react-icons";
 import { LoaderCircle } from "lucide-react";
 
 export const Hero = () => {

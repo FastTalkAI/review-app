@@ -5,11 +5,10 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
-import { useTheme } from "@/components/theme-provider";
-import { Moon, Sun, Languages } from "lucide-react";
+import { Languages } from "lucide-react";
 
 export function LanguageToggle() {
-  const { setTheme } = useTheme();
+  // const { setTheme } = useTheme();
 
   return (
     <DropdownMenu>

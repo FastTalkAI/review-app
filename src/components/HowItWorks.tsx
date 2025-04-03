@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import {
   CodeIcon,
-  MapIcon,
   PlaneIcon,
   SettingsIcon,
   FlashIcon,
