@@ -152,14 +152,15 @@ export const Footer = () => {
 
       <section className="container pb-14 text-center">
         <h3>
-          &copy; 2024 Landing page made by{" "}
+          &copy; 2025 All rights reserved by{" "}
           <a
             rel="noreferrer noopener"
             target="_blank"
-            href="https://www.linkedin.com/in/leopoldo-miranda/"
+            href=""
             className="text-primary transition-all border-primary hover:border-b-2"
+            style={{ fontFamily: "'Dancing Script', cursive" }}
           >
-            Leo Miranda
+            Fast Talk
           </a>
         </h3>
       </section>

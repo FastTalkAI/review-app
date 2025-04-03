@@ -10,21 +10,21 @@ interface ServiceProps {
 
 const serviceList: ServiceProps[] = [
   {
-    title: "Code Collaboration",
+    title: "Tailored to Your Brand",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "Our AI adapts to your unique voice, ensuring every review reply reflects your business’s personality and values for a consistent customer experience.",
     icon: <ChartIcon />,
   },
   {
-    title: "Project Management",
+    title: "Empowering Your Success",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "We save you time and effort with fast, smart replies, so you can focus on delighting your clients and growing your business.",
     icon: <WalletIcon />,
   },
   {
-    title: "Task Automation",
+    title: "Support That Listens",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nesciunt est nostrum omnis ab sapiente.",
+      "From setup to scaling, our team is here to understand your needs and provide solutions that make your customers feel heard and valued.",
     icon: <MagnifierIcon />,
   },
 ];
@@ -42,8 +42,7 @@ export const Services = () => {
           </h2>
 
           <p className="text-muted-foreground text-xl mt-4 mb-8 ">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis
-            dolor.
+            Putting Your Business and Customers First, Every Step of the Way.
           </p>
 
           <div className="flex flex-col gap-8">
@@ -65,11 +64,11 @@ export const Services = () => {
           </div>
         </div>
 
-        <img
+        {/* <img
           src={cubeLeg}
           className="w-[300px] md:w-[500px] lg:w-[600px] object-contain"
           alt="About services"
-        />
+        /> */}
       </div>
     </section>
   );
